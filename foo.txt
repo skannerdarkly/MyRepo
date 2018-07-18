@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 ---------------------- FAST PLATFORM FILE --------------------------------------
-Example platform file. My modification!
+Example platform file. My newer modification! 
 ---------------------- FEATURE FLAGS (CONT) ------------------------------------
 True        PtfmSgDOF   - Platform horizontal surge translation DOF (flag)
 True        PtfmSwDOF   - Platform horizontal sway translation DOF (flag)
