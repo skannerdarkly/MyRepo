@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+---------------------- FAST PLATFORM FILE --------------------------------------
+Example platform file.
+---------------------- FEATURE FLAGS (CONT) ------------------------------------
+True        PtfmSgDOF   - Platform horizontal surge translation DOF (flag)
+True        PtfmSwDOF   - Platform horizontal sway translation DOF (flag)
+True        PtfmHvDOF   - Platform vertical heave translation DOF (flag)
+True        PtfmRDOF    - Platform roll tilt rotation DOF (flag)
+True        PtfmPDOF    - Platform pitch tilt rotation DOF (flag)
+True        PtfmYDOF    - Platform yaw rotation DOF (flag)
+---------------------- INITIAL CONDITIONS (CONT) -------------------------------
+   0.0      PtfmSurge   - Initial or fixed horizontal surge translational displacement of platform (meters)
+   0.0      PtfmSway    - Initial or fixed horizontal sway translational displacement of platform (meters)
+   0.0      PtfmHeave   - Initial or fixed vertical heave translational displacement of platform (meters)
+   0.0      PtfmRoll    - Initial or fixed roll tilt rotational displacement of platform (degrees)
+   0.0      PtfmPitch   - Initial or fixed pitch tilt rotational displacement of platform (degrees)
+   0.0      PtfmYaw     - Initial or fixed yaw rotational displacement of platform (degrees)
+---------------------- TURBINE CONFIGURATION (CONT) ----------------------------
+   0.0     TwrDraft    - Downward distance from the ground level [onshore] or MSL [offshore] to the tower base platform connection (meters)
+   0.0   PtfmCMx     - Fore-aft distance from ground [onshore] or MSL [offshore] to platform CM (x towards north)
+   0.0      PtfmCMy     - Side-to-side distance from ground [onshore] or MSL [offshore] to platform CM (y towards west)
+   0.0   PtfmCM      - Downward distance from the ground level [onshore] or MSL [offshore] to the platform CM (meters) (z towards sea bottom)
+   0.0      PtfmRef     - Downward distance from the ground level [onshore] or MSL [offshore] to the platform reference point (meters)
+---------------------- MASS AND INERTIA (CONT) ---------------------------------
+   0.0      PtfmMass    - Platform mass (kg)
+   0.0     PtfmRIner   - Platform inertia for roll tilt rotation about the platform CM (kg m^2)
+   0.0      PtfmPIner   - Platform inertia for pitch tilt rotation about the platform CM (kg m^2)
+   0.0      PtfmYIner   - Platfrom inertia for yaw rotation about the platform CM (kg m^2)
+---------------------- PLATFORM (CONT) -----------------------------------------
+   1       PtfmLdMod   - Platform loading model {0: none, 1: user-defined from routine UserPtfmLd} (switch)
+0000       OrcaWindDir  - Wind Direction for OrcaFlex wrt to the platform, 0deg in south (wind coming from column 2-3), anticlockwise (degrees)
+   1       BallastFlag  - Flag for active ballast system controller (on=1,off=0)
+   0       TargetRollGlobal  - Global Roll Angle to aim in the active ballast wrt wind direction
+   4       TargetPitchGlobal  - Global Pitch Angle to aim in the active ballast wrt wind direction
+   1.25    DeadBandON  - Mainly for sensitivity purposes, Precision range of Active Ballast around the aimed heel angle, default value is 1.25deg
+   56.40   ColumnSpacing12 - Column1 to Column2 spacing from CL to CL (m), default value is 50m
+   65.50   ColumnSpacing23 - Column2 to Column3 spacing from CL to CL (m), default value is 50m
+   56.40   ColumnSpacing13 - Column1 to Column3 spacing from CL to CL (m), default value is 50m
+   0.6     FlowRate_ON - Mainly for sensitivity purposes, Active Ballast mean flow rate, default value is 0.6 m3/s
+   400     SwitchTime - Mainly for sensitivity purposes, Time at which normal speed (0 m3/s) for AB is enabled, default value is 400s
