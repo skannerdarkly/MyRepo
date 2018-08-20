@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Yuxi inserted a nice line here.
+Yuxi inserted a master line here.
 ---------------------- FAST PLATFORM FILE --------------------------------------
 Example platform file. My newer modification! 
 ---------------------- FEATURE FLAGS (CONT) ------------------------------------
