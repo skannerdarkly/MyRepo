@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
-Yuxi inserted a master line here.
+Yuxi inserted a master line right here.
 ---------------------- FAST PLATFORM FILE --------------------------------------
-Example platform file. My newer modification! 
+Example platform file for training.
 ---------------------- FEATURE FLAGS (CONT) ------------------------------------
 True        PtfmSgDOF   - Platform horizontal surge translation DOF (flag)
 True        PtfmSwDOF   - Platform horizontal sway translation DOF (flag)
